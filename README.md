@@ -3,7 +3,7 @@
 
 ***This android project has advanced features like:***
 
-  * If the phone is lost user can track down the device by tracking funtionality.
+  * If the phone is lost, User can track down the device by tracking funtionality.
   * If someone tries to power off the device, it will prevent it from accessing power off button.
   * As well As it will prevent other from accessing drop down menu. Due to this turing off data connection or turning on airplane mode from drop down menu is impossible.
   * Though the mobile data is in off, We can get the current location of the device by sending SMS "locate Phone" so the automatically reply with it's current location.
