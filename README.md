@@ -7,3 +7,6 @@
   * If someone tries to power off the device, it will prevent it from accessing power off button.
   * As well As it will prevent other from accessing drop down menu. Due to this turing off data connection or turning on airplane mode from drop down menu is impossible.
   * Though the mobile data is in off, We can get the current location of the device by sending SMS "locate Phone" so the automatically reply with it's current location.
+
+> [!IMPORTANT]
+> To make the project to work, You will need to add `google map api` and integrate your `firebase` with the project.
