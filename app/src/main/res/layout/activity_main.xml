@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/goLoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="goToLogin"
+        android:text="@string/log_in" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@id/goLoginBtn"
+        android:layout_marginTop="17dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/goSignUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goLoginBtn"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:onClick="goToRegister"
+        android:text="@string/sign_up"
+        tools:layout_editor_absoluteX="151dp" />
+
+</RelativeLayout>

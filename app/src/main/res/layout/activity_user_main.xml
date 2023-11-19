@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserMainActivity">
+
+    <TextView
+        android:id="@+id/user_Location"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_location"
+        android:onClick="user_Location"
+        android:padding="9dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/locatePhone"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locate_phone"
+        android:onClick="locatePhone"
+        android:layout_below="@id/user_Location"
+        android:padding="9dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/shutdownBtn"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fake_shutdown"
+        android:onClick="shutdown"
+        android:layout_below="@id/locatePhone"
+        android:padding="9dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/smsSetting"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Settings"
+        android:onClick="smsSetting"
+        android:layout_below="@id/shutdownBtn"
+        android:padding="9dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/signOut_txt"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:onClick="signOut"
+        android:layout_below="@id/smsSetting"
+        android:padding="9dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

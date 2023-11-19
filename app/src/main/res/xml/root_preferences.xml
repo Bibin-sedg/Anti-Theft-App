@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Settings">
+
+        <PreferenceScreen
+            app:key="deviceadmin"
+            app:title="Device adminstration"
+            app:enabled="false"/>
+
+
+        <SwitchPreferenceCompat
+            app:key="powerblock"
+            app:title="Block Power Off" />
+
+        <EditTextPreference
+            app:dependency="powerblock"
+            app:key="powerofftext"
+            app:summary="Change power off menu text"
+            app:title="Power Off Menu Text" />
+
+        <SwitchPreferenceCompat
+            app:key="statusblock"
+            app:title="Block Quick Settings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Uninstall">
+
+        <PreferenceScreen
+            app:key="uninstall"
+            app:title="Uninstall App"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

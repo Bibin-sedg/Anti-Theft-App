@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUserActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Hello"
+        android:textSize="20sp"
+
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="xxxx"
+        android:textSize="35sp"
+        android:layout_below="@id/hello"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Click Below To Register"
+        android:textSize="20sp"
+        android:layout_below="@id/userName"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="registerUser"
+        android:text="Register"/>
+
+
+</RelativeLayout>

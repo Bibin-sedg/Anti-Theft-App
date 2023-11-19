@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TrackPhone</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_user_maps">UserMapsActivity</string>
+    <string name="share_location">Share Location</string>
+    <string name="locate_phone">Locate Phone</string>
+    <string name="my_location">My Location</string>
+    <string name="fake_shutdown">Fake Shutdown</string>
+    <string name="title_activity_locate_phone">LocatePhoneActivity</string>
+
+    <string name="warn">Your phone will shutdown</string>
+    <string name="title_activity_shutdown">Power off</string>
+    <string name="descr" tools:ignore="TypographyEllipsis">Shutting down...</string>
+    <string name="perm">This permission is need for lock screen</string>
+    <string name="acc_grant">Admin permission granted.</string>
+    <string name="acc_rem">Admin permission revocated. Now you can unistall this app.</string>
+    <string name="enabled">enabled1</string>
+    <string name="deviceadmin_summary">deviceadmin summary 1</string>
+    <string name="cancel">cancel</string>
+    <string name="accept">accept</string>
+    <string name="accessibility_summary">accessibility_summary</string>
+    <string name="powerofftext_summary1">powerofftext_summary1</string>
+    <string name="powerofftext_summary2">powerofftext_summary2</string>
+    <string name="device_admin_description">device_admin_description</string>
+
+
+
+
+    <string name="accessibility_service_description">You need to enable the accessibility servicer for trackphone so it can monitor the lock screen and block the power off menu and quick settings the app does not collect or send any information</string>
+</resources>
